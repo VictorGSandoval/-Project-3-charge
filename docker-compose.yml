@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  springboot-backend-reto:
+    container_name: retoBackendARavello
+    build: .
+    ports:
+      - "8080:8080"
+#    expose:
+#      - "8080"
+#    networks:
+#      - docker-reto-backend
